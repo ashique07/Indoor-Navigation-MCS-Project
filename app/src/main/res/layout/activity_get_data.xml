@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TableRow>
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="X1: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1" />
+
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:width="200px"
+            android:id="@+id/x1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Y1: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1" />
+
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:width="200px"
+            android:id="@+id/y1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Z1: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1" />
+
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:width="200px"
+            android:id="@+id/z1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="X2: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1" />
+
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:width="200px"
+            android:id="@+id/x2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Y2: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1" />
+
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:width="200px"
+            android:id="@+id/y2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Z2: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1" />
+
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:width="200px"
+            android:id="@+id/z2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="X3: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1" />
+
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:width="200px"
+            android:id="@+id/x3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Y3: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1" />
+
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:width="200px"
+            android:id="@+id/y3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Z3: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1" />
+
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:width="200px"
+            android:id="@+id/z3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="X4: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1" />
+
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:width="200px"
+            android:id="@+id/x4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Y4: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1" />
+
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:width="200px"
+            android:id="@+id/y4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Z4: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1" />
+
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:width="200px"
+            android:id="@+id/z4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="X5: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1" />
+
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:width="200px"
+            android:id="@+id/x5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Y5: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1" />
+
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:width="200px"
+            android:id="@+id/y5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Z5: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1" />
+
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:width="200px"
+            android:id="@+id/z5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"/>
+
+    <TableRow>
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="X Average: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1" />
+
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FF0000"
+            android:width="200px"
+            android:id="@+id/xAverage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Y Average: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1" />
+
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FF0000"
+            android:width="200px"
+            android:id="@+id/yAverage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Z Average: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1" />
+
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#FF0000"
+            android:width="200px"
+            android:id="@+id/zAverage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"/>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Room Number: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1" />
+
+        <EditText
+            android:id="@+id/roomNumber"
+            android:hint="Enter the room number"
+            android:inputType="number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SENSE MAGNETIC FIELD"
+            android:background="#87ceeb"
+            android:id="@+id/sense"
+            android:onClick="onSense"
+            android:layout_column="2" />
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"/>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FF0000"
+            android:text="SAVE IN DATABASE"
+            android:id="@+id/save"
+            android:onClick="onSave"
+            android:layout_column="2" />
+    </TableRow>
+
+</TableLayout>

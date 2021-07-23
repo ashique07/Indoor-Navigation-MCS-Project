@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100">
+
+    <TextView
+        android:id="@+id/xValue"
+        android:layout_gravity="center"
+        android:layout_width="0dp"
+        android:layout_weight="20"
+        android:layout_height="match_parent"
+        android:textSize="20dp"
+        android:text="X" />
+
+    <TextView
+        android:id="@+id/yValue"
+        android:layout_gravity="center"
+        android:layout_width="0dp"
+        android:layout_weight="20"
+        android:layout_height="match_parent"
+        android:textSize="20dp"
+        android:text="Y" />
+
+    <TextView
+        android:id="@+id/zValue"
+        android:layout_gravity="center"
+        android:layout_width="0dp"
+        android:layout_weight="20"
+        android:layout_height="match_parent"
+        android:textSize="20dp"
+        android:text="Z" />
+
+    <TextView
+        android:textColor="#FF0000"
+        android:id="@+id/roomNumber"
+        android:layout_gravity="center"
+        android:layout_width="0dp"
+        android:layout_weight="20"
+        android:layout_height="match_parent"
+        android:textSize="20dp"
+        android:text="Room Number" />
+
+    <TextView
+        android:textColor="#00008B"
+        android:id="@+id/distance"
+        android:layout_gravity="center"
+        android:layout_width="0dp"
+        android:layout_weight="20"
+        android:layout_height="match_parent"
+        android:textSize="20dp"
+        android:text="Euclidean Distance" />
+
+</LinearLayout>

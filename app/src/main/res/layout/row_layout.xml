@@ -1,0 +1,49 @@
+<LinearLayout
+    android:id="@+id/relativeLayout1"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:weightSum="4">
+
+    <TextView
+        android:layout_gravity="center"
+        android:textColor="#FF0000"
+        android:textSize="20dp"
+        android:id="@+id/FirstText"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:text="First"
+        android:layout_weight="1">
+    </TextView>
+
+    <TextView
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:id="@+id/SecondText"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:text="Second"
+        android:layout_weight="1">
+    </TextView>
+
+    <TextView
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:id="@+id/ThirdText"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:text="Third"
+        android:layout_weight="1">
+    </TextView>
+
+    <TextView
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:id="@+id/FourthText"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:text="Fourth"
+        android:layout_weight="1">
+    </TextView>
+</LinearLayout>

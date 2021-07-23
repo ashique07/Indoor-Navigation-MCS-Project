@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Indoor Navigation</string>
+
+    <string-array name="options">
+        <item>Get Magnetic Field Data</item>
+        <item>Track Location</item>
+        <item>View Magtetic Field Data</item>
+    </string-array>
+
+</resources>
