@@ -2,7 +2,10 @@ package com.example.indoornavigation;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.AlertDialog;
 import android.app.ListActivity;
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteException;
@@ -65,6 +68,26 @@ public class ViewData extends ListActivity {
         super.onListItemClick(l, v, position, id);
 
         //DELETE
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+
+        builder.setTitle("Delete entry");
+        builder.setMessage("Are you sure you want to delete this entry from Database ?");
+
+        builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialog, int which) {
+                // User clicked OK button
+
+                db.delete("MAGNETIC_FIELD", "_id=?", new String[]{String.valueOf(id)});
+
+                Intent intent = getIntent();
+                finish();
+                startActivity(intent);
+            }
+        });
+
+        builder.setNegativeButton("NO", null);
+
+        builder.show();
 
     }
 }
